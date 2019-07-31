@@ -22,7 +22,7 @@ public class BMICalc {
 
 /*
 TO create ajava only:
-create empty activity, pick java module
+create no activity, change view from android to project, add new module of java.
 */
 
 }
