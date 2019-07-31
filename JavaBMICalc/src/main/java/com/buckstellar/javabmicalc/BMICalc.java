@@ -6,10 +6,10 @@ public class BMICalc {
         System.out.println("YourBMI:"+bmiCalc(30,60));
     }
 
-    public static String bmiCalc(doubleweight,doublehieght){
+    public static String bmiCalc(double weight,double hieght){
 
-        doubleansw=weight/hieght;
-        Stringans;
+        double answ=weight/hieght;
+        String ans;
         if(answ>1){
             ans="YouFat";
         }else if(answ<0.5){
@@ -17,12 +17,13 @@ public class BMICalc {
         }else{
             ans="You Might be Fat orSkinny";
         }
-        returnans;
+        return ans;
     }
 
 /*
 TO create ajava only:
 create empty activity, pick java module
 */
+
 }
-}
+
